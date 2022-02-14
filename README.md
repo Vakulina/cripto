@@ -14,5 +14,5 @@
 #### Используемые технологии:
 - backend - Node.js + Express + MongoDB
 - frontend - React.js (Create React App)
-- сервер nginx для деплоя на виртуальную машину, развернутую на платформе Yandex Compute Cloud
+- сервер nginx для деплоя на виртуальной машине, развернутую на платформе Yandex Compute Cloud
  
