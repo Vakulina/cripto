@@ -1,0 +1,49 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend path fo cripto-project",
+  "main": "index.js",
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "body-parser": "^1.19.1",
+    "bson": "^4.6.1",
+    "buffer": "^5.7.1",
+    "debug": "^4.3.3",
+    "denque": "^2.0.1",
+    "express": "^4.17.2",
+    "ieee754": "^1.2.1",
+    "ip": "^1.1.5",
+    "kareem": "^2.3.3",
+    "memory-pager": "^1.5.0",
+    "mongodb": "^4.3.1",
+    "mongodb-connection-string-url": "^2.4.2",
+    "mongoose": "^6.2.1",
+    "mpath": "^0.8.4",
+    "mquery": "^4.0.2",
+    "ms": "^2.1.2",
+    "punycode": "^2.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "saslprep": "^1.0.3",
+    "sift": "^13.5.2",
+    "smart-buffer": "^4.2.0",
+    "socks": "^2.6.2",
+    "sparse-bitfield": "^3.0.3",
+    "tr46": "^3.0.0",
+    "webidl-conversions": "^7.0.0",
+    "whatwg-url": "^11.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "npx eslint ."
+  },
+  "author": "Viktoria Yakovleva",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  }
+}
