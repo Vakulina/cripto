@@ -1,6 +1,6 @@
 class Api {
   constructor() {
-  this._url = `http://localhost:5000/api/percentages`
+  this._url = `http://vakulina.space/api/percentages`
   }
   _checkRequest(res) {
     if (res.ok) {
