@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend path fo cripto-project",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongodb-connection-string-url": "^2.4.2",
+    "mongoose": "^6.2.1",
+    "request": "^2.88.2",
+    "request-promise": "^0.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "npx eslint ."
+  },
+  "author": "Viktoria Yakovleva",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  }
+}

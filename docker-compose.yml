@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  nginx:
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - '8080:8080'
+    depends_on:
+      - backend
+    networks:
+      - cripto
+
+  backend:
+    container_name: backend
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    restart: always
+    ports:
+      - '5000:5000'
+    depends_on:
+      - database
+    networks:
+      - cripto
+
+  database:
+    container_name: database
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    networks:
+    - cripto
+
+networks:
+  cripto:
+    name: cripto

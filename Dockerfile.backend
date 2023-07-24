@@ -1,0 +1,13 @@
+ARG NODE_VERSION=16
+FROM node:${NODE_VERSION}-alpine
+
+WORKDIR /app
+
+COPY /backend/package.json ./
+COPY /backend/package-lock.json ./
+RUN npm install --production   # Устанавливаем только production зависимости
+
+COPY . .
+
+EXPOSE 5000
+CMD node /app/backend/index.js
