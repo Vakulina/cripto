@@ -29,3 +29,7 @@
  
 #### :link: [Деплой](http://vakulina.space/)
 
+#### Gif 
+![demo](https://github.com/Vakulina/cripto/assets/80524794/91eee1ea-e49b-4c30-9211-e25c239da517)
+
+
